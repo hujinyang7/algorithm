@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d25d9295-8674-4ad7-94af-2b3d36f7277d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>REST_FRAMEWORK</find>
+      <find>EXCEPTION_HANDLER</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/.virtualenvs/django_py3/</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day03/__init__.py" />
+        <option value="$PROJECT_DIR$/booktest/urls.py" />
+        <option value="$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/pagination.py" />
+        <option value="$PROJECT_DIR$/booktest/my_exception.py" />
+        <option value="$PROJECT_DIR$/day03/settings.py" />
+        <option value="$PROJECT_DIR$/day03/urls.py" />
+        <option value="$PROJECT_DIR$/booktest/models.py" />
+        <option value="$PROJECT_DIR$/booktest/serializers.py" />
+        <option value="$PROJECT_DIR$/booktest/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="46" />
+    <option name="y" value="23" />
+    <option name="width" value="1394" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="day03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="booktest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="day03" type="Python.DjangoServer" factoryName="Django server">
+      <module name="day03" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="day03.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d25d9295-8674-4ad7-94af-2b3d36f7277d" name="Default" comment="" />
+      <created>1576802973888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576802973888</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="46" y="23" width="1394" height="877" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948717" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.88846153" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/mixins.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/generics.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/pagination.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/mixins.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/generics.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/booktest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/pagination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4557">
+          <caret line="217" column="4" selection-start-line="217" selection-start-column="4" selection-end-line="223" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#129#1" />
+            <element signature="e#936#1157#0" />
+            <element signature="e#936#997#1" />
+            <element signature="e#1193#1328#0" />
+            <element signature="e#1193#1267#1" />
+            <element signature="e#1384#2982#0" />
+            <element signature="e#1384#2042#1" />
+            <element signature="e#2161#2221#0" />
+            <element signature="e#2337#2399#0" />
+            <element signature="e#2493#2532#0" />
+            <element signature="e#2570#2625#0" />
+            <element signature="e#2712#2793#0" />
+            <element signature="e#3043#3559#0" />
+            <element signature="e#3043#3152#1" />
+            <element signature="e#3218#3537#0" />
+            <element signature="e#3303#3500#0" />
+            <element signature="e#3605#3887#0" />
+            <element signature="e#3605#3752#1" />
+            <element signature="e#3780#3826#0" />
+            <element signature="e#4147#4839#0" />
+            <element signature="e#4269#4338#0" />
+            <element signature="e#4412#4486#0" />
+            <element signature="e#4539#4623#0" />
+            <element signature="e#4666#4688#0" />
+            <element signature="e#4737#4839#0" />
+            <element signature="e#4890#5106#1" />
+            <element signature="e#5111#5135#0" />
+            <element signature="e#5458#5520#0" />
+            <element signature="e#5700#5774#0" />
+            <element signature="e#7783#8010#0" />
+            <element signature="e#8053#8383#0" />
+            <element signature="e#8425#9124#0" />
+            <element signature="e#8528#8730#0" />
+            <element signature="e#8976#9124#0" />
+            <element signature="e#9157#9284#0" />
+            <element signature="e#9333#10346#0" />
+            <element signature="e#9534#9863#0" />
+            <element signature="e#9927#10324#0" />
+            <element signature="e#10398#15943#0" />
+            <element signature="e#10398#10560#1" />
+            <element signature="e#10980#11455#0" />
+            <element signature="e#11509#11711#0" />
+            <element signature="e#11537#11709#0" />
+            <element signature="e#11755#12094#0" />
+            <element signature="e#11794#12059#0" />
+            <element signature="e#11815#11995#0" />
+            <element signature="e#12139#12314#0" />
+            <element signature="e#12156#12254#0" />
+            <element signature="e#12353#12659#0" />
+            <element signature="e#12702#13097#0" />
+            <element signature="e#13139#14611#0" />
+            <element signature="e#13220#13843#0" />
+            <element signature="e#13290#13335#0" />
+            <element signature="e#13870#13903#0" />
+            <element signature="e#14019#14298#0" />
+            <element signature="e#14151#14298#0" />
+            <element signature="e#14463#14611#0" />
+            <element signature="e#14644#14771#0" />
+            <element signature="e#14820#15676#0" />
+            <element signature="e#15019#15676#0" />
+            <element signature="e#15721#15943#0" />
+            <element signature="e#15721#15817#1" />
+            <element signature="e#15990#30292#0" />
+            <element signature="e#15990#16203#1" />
+            <element signature="e#16488#16550#0" />
+            <element signature="e#16730#16804#0" />
+            <element signature="e#16901#16965#0" />
+            <element signature="e#17295#20475#0" />
+            <element signature="e#18094#18525#0" />
+            <element signature="e#18535#18608#0" />
+            <element signature="e#18979#19102#0" />
+            <element signature="e#19129#19197#0" />
+            <element signature="e#19207#19278#0" />
+            <element signature="e#19465#19833#0" />
+            <element signature="e#19860#20228#0" />
+            <element signature="e#20238#20299#0" />
+            <element signature="e#20523#20870#0" />
+            <element signature="e#20566#20839#0" />
+            <element signature="e#20587#20775#0" />
+            <element signature="e#20909#22942#0" />
+            <element signature="e#21044#21261#0" />
+            <element signature="e#21044#21103#0" />
+            <element signature="e#21390#21957#0" />
+            <element signature="e#21507#21684#0" />
+            <element signature="e#21507#21560#0" />
+            <element signature="e#21698#21759#0" />
+            <element signature="e#21985#22826#0" />
+            <element signature="e#22085#22314#0" />
+            <element signature="e#22085#22112#0" />
+            <element signature="e#22369#22575#0" />
+            <element signature="e#22369#22428#0" />
+            <element signature="e#22610#22826#0" />
+            <element signature="e#22610#22667#0" />
+            <element signature="e#22985#25003#0" />
+            <element signature="e#23128#23344#0" />
+            <element signature="e#23128#23187#0" />
+            <element signature="e#23467#24034#0" />
+            <element signature="e#23584#23761#0" />
+            <element signature="e#23584#23637#0" />
+            <element signature="e#23775#23836#0" />
+            <element signature="e#24062#24888#0" />
+            <element signature="e#24158#24387#0" />
+            <element signature="e#24158#24185#0" />
+            <element signature="e#24442#24654#0" />
+            <element signature="e#24442#24499#0" />
+            <element signature="e#24689#24888#0" />
+            <element signature="e#24689#24748#0" />
+            <element signature="e#25066#26902#0" />
+            <element signature="e#25066#25158#1" />
+            <element signature="e#25186#25326#0" />
+            <element signature="e#25369#25921#0" />
+            <element signature="e#25369#25432#0" />
+            <element signature="e#25727#25830#0" />
+            <element signature="e#25948#26565#0" />
+            <element signature="e#25948#26006#0" />
+            <element signature="e#26146#26255#0" />
+            <element signature="e#26329#26551#0" />
+            <element signature="e#26950#27815#0" />
+            <element signature="e#26950#27032#1" />
+            <element signature="e#27246#27645#0" />
+            <element signature="e#27862#28399#0" />
+            <element signature="e#27862#27945#1" />
+            <element signature="e#28472#28685#0" />
+            <element signature="e#28739#28906#0" />
+            <element signature="e#28767#28904#0" />
+            <element signature="e#28948#29065#0" />
+            <element signature="e#28955#29065#0" />
+            <element signature="e#29098#29225#0" />
+            <element signature="e#29274#30292#0" />
+            <element signature="e#29475#29809#0" />
+            <element signature="e#29873#30270#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="159" column="50" lean-forward="true" selection-start-line="159" selection-start-column="50" selection-end-line="159" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="179" column="52" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#61#1" />
+            <element signature="e#460#759#0" />
+            <element signature="e#460#600#1" />
+            <element signature="e#803#858#1" />
+            <element signature="e#863#908#0" />
+            <element signature="e#1288#1358#0" />
+            <element signature="e#1749#2726#0" />
+            <element signature="e#1749#2311#1" />
+            <element signature="e#2368#2476#0" />
+            <element signature="e#2614#2702#0" />
+            <element signature="e#2762#3754#0" />
+            <element signature="e#2762#3017#1" />
+            <element signature="e#3253#3433#0" />
+            <element signature="e#3811#4123#0" />
+            <element signature="e#3811#3961#1" />
+            <element signature="e#4169#4769#0" />
+            <element signature="e#4169#4494#1" />
+            <element signature="e#4559#4683#0" />
+            <element signature="e#4817#5018#0" />
+            <element signature="e#4817#4888#1" />
+            <element signature="e#4904#5018#0" />
+            <element signature="e#5069#5572#0" />
+            <element signature="e#5069#5418#1" />
+            <element signature="e#5621#5940#0" />
+            <element signature="e#5621#5704#1" />
+            <element signature="e#5761#5909#0" />
+            <element signature="e#5993#6228#0" />
+            <element signature="e#5993#6086#1" />
+            <element signature="e#6479#6531#0" />
+            <element signature="e#6672#6831#0" />
+            <element signature="e#6672#6732#1" />
+            <element signature="e#6787#6831#0" />
+            <element signature="e#6914#7063#0" />
+            <element signature="e#6914#6967#1" />
+            <element signature="e#7021#7063#0" />
+            <element signature="e#7158#7320#0" />
+            <element signature="e#7158#7220#1" />
+            <element signature="e#7274#7320#0" />
+            <element signature="e#7412#7574#0" />
+            <element signature="e#7412#7472#1" />
+            <element signature="e#7529#7574#0" />
+            <element signature="e#7663#7930#0" />
+            <element signature="e#7663#7723#1" />
+            <element signature="e#7777#7821#0" />
+            <element signature="e#7878#7930#0" />
+            <element signature="e#8074#8352#0" />
+            <element signature="e#8074#8156#1" />
+            <element signature="e#8210#8252#0" />
+            <element signature="e#8308#8352#0" />
+            <element signature="e#8512#8892#0" />
+            <element signature="e#8512#8584#1" />
+            <element signature="e#8638#8684#0" />
+            <element signature="e#8739#8783#0" />
+            <element signature="e#8840#8892#0" />
+            <element signature="e#9056#9333#0" />
+            <element signature="e#9056#9130#1" />
+            <element signature="e#9184#9230#0" />
+            <element signature="e#9288#9333#0" />
+            <element signature="e#9575#10070#0" />
+            <element signature="e#9575#9659#1" />
+            <element signature="e#9713#9759#0" />
+            <element signature="e#9814#9858#0" />
+            <element signature="e#9915#9967#0" />
+            <element signature="e#10025#10070#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/django_filters/rest_framework/backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/django.db.utils.DatabaseError">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>django.db.utils.DatabaseError</OriginalElement>
+          <nodes>
+            <node x="" y="">django.db.utils.Error</node>
+            <node x="" y="">django.db.utils.DatabaseError</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="55.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/django.db.utils.OperationalError">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>django.db.utils.OperationalError</OriginalElement>
+          <nodes>
+            <node x="" y="">django.db.utils.Error</node>
+            <node x="" y="">django.db.utils.OperationalError</node>
+            <node x="" y="">django.db.utils.DatabaseError</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/django/db/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/rest_framework.exceptions.ValidationError">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>rest_framework.exceptions.ValidationError</OriginalElement>
+          <nodes>
+            <node x="" y="">BaseException</node>
+            <node x="" y="">object</node>
+            <node x="" y="">rest_framework.exceptions.APIException</node>
+            <node x="" y="">Exception</node>
+            <node x="" y="">rest_framework.exceptions.ValidationError</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="175.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="138" column="10" lean-forward="true" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#189#1" />
+            <element signature="e#673#1439#0" />
+            <element signature="e#673#798#1" />
+            <element signature="e#838#1046#0" />
+            <element signature="e#844#923#0" />
+            <element signature="e#1088#1328#0" />
+            <element signature="e#1094#1205#0" />
+            <element signature="e#1470#1682#0" />
+            <element signature="e#1720#1997#0" />
+            <element signature="e#1935#1997#0" />
+            <element signature="e#2038#2696#0" />
+            <element signature="e#2038#2109#1" />
+            <element signature="e#2176#2272#0" />
+            <element signature="e#2311#2467#0" />
+            <element signature="e#2506#2535#0" />
+            <element signature="e#2569#2696#0" />
+            <element signature="e#2642#2685#0" />
+            <element signature="e#3272#3305#0" />
+            <element signature="e#3340#3486#0" />
+            <element signature="e#3340#3447#1" />
+            <element signature="e#3528#3740#0" />
+            <element signature="e#3528#3694#1" />
+            <element signature="e#3743#3819#0" />
+            <element signature="e#4083#4682#0" />
+            <element signature="e#4252#4682#0" />
+            <element signature="e#4383#4446#0" />
+            <element signature="e#4721#4840#0" />
+            <element signature="e#4889#5038#0" />
+            <element signature="e#5083#5236#0" />
+            <element signature="e#5281#5436#0" />
+            <element signature="e#5473#5580#0" />
+            <element signature="e#5625#5990#0" />
+            <element signature="e#5836#5990#0" />
+            <element signature="e#6032#6371#0" />
+            <element signature="e#6267#6371#0" />
+            <element signature="e#6420#6828#0" />
+            <element signature="e#6662#6828#0" />
+            <element signature="e#6866#7675#0" />
+            <element signature="e#7195#7675#0" />
+            <element signature="e#7308#7596#0" />
+            <element signature="e#7379#7594#0" />
+            <element signature="e#7726#7901#0" />
+            <element signature="e#7726#7768#1" />
+            <element signature="e#7780#7825#0" />
+            <element signature="e#7962#8126#0" />
+            <element signature="e#7962#8004#1" />
+            <element signature="e#8016#8060#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/booktest.views.BookInfoModelViewSet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>booktest.views.BookInfoModelViewSet</OriginalElement>
+          <nodes>
+            <node x="1479.0" y="100.0">rest_framework.mixins.CreateModelMixin</node>
+            <node x="982.2999999999997" y="0.0">object</node>
+            <node x="141.29999999999973" y="340.0">rest_framework.viewsets.GenericViewSet</node>
+            <node x="1023.75" y="430.0">rest_framework.viewsets.ModelViewSet</node>
+            <node x="28.0" y="100.0">django.views.generic.base.View</node>
+            <node x="568.0" y="100.0">rest_framework.mixins.UpdateModelMixin</node>
+            <node x="1025.25" y="510.0">booktest.views.BookInfoModelViewSet</node>
+            <node x="277.0" y="100.0">rest_framework.viewsets.ViewSetMixin</node>
+            <node x="0.0" y="260.0">rest_framework.generics.GenericAPIView</node>
+            <node x="32.5" y="180.0">rest_framework.views.APIView</node>
+            <node x="1784.0" y="100.0">rest_framework.mixins.DestroyModelMixin</node>
+            <node x="1165.0" y="100.0">rest_framework.mixins.RetrieveModelMixin</node>
+            <node x="878.0" y="100.0">rest_framework.mixins.ListModelMixin</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="rest_framework.viewsets.ModelViewSet" target="rest_framework.mixins.CreateModelMixin">
+              <point x="69.0" y="-15.0" />
+              <point x="1230.75" y="400.0" />
+              <point x="1621.5" y="400.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.ModelViewSet" target="rest_framework.mixins.UpdateModelMixin">
+              <point x="-69.0" y="-15.0" />
+              <point x="1092.75" y="400.0" />
+              <point x="713.0" y="400.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.mixins.UpdateModelMixin" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="713.0" y="70.0" />
+              <point x="1008.0142857142855" y="70.0" />
+              <point x="-10.285714285714334" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.ModelViewSet" target="rest_framework.mixins.ListModelMixin">
+              <point x="-23.0" y="-15.0" />
+              <point x="1138.75" y="390.0" />
+              <point x="1011.5" y="390.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.mixins.CreateModelMixin" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1621.5" y="70.0" />
+              <point x="1038.8714285714284" y="70.0" />
+              <point x="20.57142857142867" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.GenericViewSet" target="rest_framework.generics.GenericAPIView">
+              <point x="-71.5" y="-15.0" />
+              <point x="212.79999999999973" y="315.0" />
+              <point x="142.5" y="315.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.ModelViewSet" target="rest_framework.viewsets.GenericViewSet">
+              <point x="-115.0" y="-15.0" />
+              <point x="1046.75" y="410.0" />
+              <point x="284.2999999999997" y="410.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="booktest.views.BookInfoModelViewSet" target="rest_framework.viewsets.ModelViewSet">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.generics.GenericAPIView" target="rest_framework.views.APIView">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.views.APIView" target="django.views.generic.base.View">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.GenericViewSet" target="rest_framework.viewsets.ViewSetMixin">
+              <point x="71.5" y="-15.0" />
+              <point x="355.7999999999997" y="315.0" />
+              <point x="412.5" y="315.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.mixins.RetrieveModelMixin" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1312.0" y="80.0" />
+              <point x="1028.585714285714" y="80.0" />
+              <point x="10.28571428571422" y="15.0" />
+            </edge>
+            <edge source="rest_framework.mixins.DestroyModelMixin" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1930.5" y="60.0" />
+              <point x="1049.1571428571426" y="60.0" />
+              <point x="30.85714285714289" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.ModelViewSet" target="rest_framework.mixins.DestroyModelMixin">
+              <point x="115.0" y="-15.0" />
+              <point x="1276.75" y="410.0" />
+              <point x="1930.5" y="410.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.ViewSetMixin" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="412.5" y="60.0" />
+              <point x="997.7285714285713" y="60.0" />
+              <point x="-20.571428571428555" y="15.0" />
+            </edge>
+            <edge source="django.views.generic.base.View" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="142.5" y="50.0" />
+              <point x="987.4428571428568" y="50.0" />
+              <point x="-30.85714285714289" y="15.0" />
+            </edge>
+            <edge source="rest_framework.viewsets.ModelViewSet" target="rest_framework.mixins.RetrieveModelMixin">
+              <point x="23.0" y="-15.0" />
+              <point x="1184.75" y="390.0" />
+              <point x="1312.0" y="390.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="rest_framework.mixins.ListModelMixin" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1011.5" y="80.0" />
+              <point x="1018.2999999999997" y="80.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9514578621420152" x="694.0" y="84.0" />
+          <SelectedNodes>
+            <node>object</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/my_exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="136" column="6" lean-forward="true" selection-start-line="133" selection-start-column="9" selection-end-line="136" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="85" column="75" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="159" column="50" selection-start-line="159" selection-start-column="50" selection-end-line="159" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="179" column="52" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#61#1" />
+            <element signature="e#460#759#0" />
+            <element signature="e#460#600#1" />
+            <element signature="e#803#858#1" />
+            <element signature="e#863#908#0" />
+            <element signature="e#1288#1358#0" />
+            <element signature="e#1749#2726#0" />
+            <element signature="e#1749#2311#1" />
+            <element signature="e#2368#2476#0" />
+            <element signature="e#2614#2702#0" />
+            <element signature="e#2762#3754#0" />
+            <element signature="e#2762#3017#1" />
+            <element signature="e#3253#3433#0" />
+            <element signature="e#3811#4123#0" />
+            <element signature="e#3811#3961#1" />
+            <element signature="e#4169#4769#0" />
+            <element signature="e#4169#4494#1" />
+            <element signature="e#4559#4683#0" />
+            <element signature="e#4817#5018#0" />
+            <element signature="e#4817#4888#1" />
+            <element signature="e#4904#5018#0" />
+            <element signature="e#5069#5572#0" />
+            <element signature="e#5069#5418#1" />
+            <element signature="e#5621#5940#0" />
+            <element signature="e#5621#5704#1" />
+            <element signature="e#5761#5909#0" />
+            <element signature="e#5993#6228#0" />
+            <element signature="e#5993#6086#1" />
+            <element signature="e#6479#6531#0" />
+            <element signature="e#6672#6831#0" />
+            <element signature="e#6672#6732#1" />
+            <element signature="e#6787#6831#0" />
+            <element signature="e#6914#7063#0" />
+            <element signature="e#6914#6967#1" />
+            <element signature="e#7021#7063#0" />
+            <element signature="e#7158#7320#0" />
+            <element signature="e#7158#7220#1" />
+            <element signature="e#7274#7320#0" />
+            <element signature="e#7412#7574#0" />
+            <element signature="e#7412#7472#1" />
+            <element signature="e#7529#7574#0" />
+            <element signature="e#7663#7930#0" />
+            <element signature="e#7663#7723#1" />
+            <element signature="e#7777#7821#0" />
+            <element signature="e#7878#7930#0" />
+            <element signature="e#8074#8352#0" />
+            <element signature="e#8074#8156#1" />
+            <element signature="e#8210#8252#0" />
+            <element signature="e#8308#8352#0" />
+            <element signature="e#8512#8892#0" />
+            <element signature="e#8512#8584#1" />
+            <element signature="e#8638#8684#0" />
+            <element signature="e#8739#8783#0" />
+            <element signature="e#8840#8892#0" />
+            <element signature="e#9056#9333#0" />
+            <element signature="e#9056#9130#1" />
+            <element signature="e#9184#9230#0" />
+            <element signature="e#9288#9333#0" />
+            <element signature="e#9575#10070#0" />
+            <element signature="e#9575#9659#1" />
+            <element signature="e#9713#9759#0" />
+            <element signature="e#9814#9858#0" />
+            <element signature="e#9915#9967#0" />
+            <element signature="e#10025#10070#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.6/site-packages/rest_framework/pagination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="217" column="4" selection-start-line="217" selection-start-column="4" selection-end-line="223" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#129#1" />
+            <element signature="e#936#1157#0" />
+            <element signature="e#936#997#1" />
+            <element signature="e#1193#1328#0" />
+            <element signature="e#1193#1267#1" />
+            <element signature="e#1384#2982#0" />
+            <element signature="e#1384#2042#1" />
+            <element signature="e#2161#2221#0" />
+            <element signature="e#2337#2399#0" />
+            <element signature="e#2493#2532#0" />
+            <element signature="e#2570#2625#0" />
+            <element signature="e#2712#2793#0" />
+            <element signature="e#3043#3559#0" />
+            <element signature="e#3043#3152#1" />
+            <element signature="e#3218#3537#0" />
+            <element signature="e#3303#3500#0" />
+            <element signature="e#3605#3887#0" />
+            <element signature="e#3605#3752#1" />
+            <element signature="e#3780#3826#0" />
+            <element signature="e#4147#4839#0" />
+            <element signature="e#4269#4338#0" />
+            <element signature="e#4412#4486#0" />
+            <element signature="e#4539#4623#0" />
+            <element signature="e#4666#4688#0" />
+            <element signature="e#4737#4839#0" />
+            <element signature="e#4890#5106#1" />
+            <element signature="e#5111#5135#0" />
+            <element signature="e#5458#5520#0" />
+            <element signature="e#5700#5774#0" />
+            <element signature="e#7783#8010#0" />
+            <element signature="e#8053#8383#0" />
+            <element signature="e#8425#9124#0" />
+            <element signature="e#8528#8730#0" />
+            <element signature="e#8976#9124#0" />
+            <element signature="e#9157#9284#0" />
+            <element signature="e#9333#10346#0" />
+            <element signature="e#9534#9863#0" />
+            <element signature="e#9927#10324#0" />
+            <element signature="e#10398#15943#0" />
+            <element signature="e#10398#10560#1" />
+            <element signature="e#10980#11455#0" />
+            <element signature="e#11509#11711#0" />
+            <element signature="e#11537#11709#0" />
+            <element signature="e#11755#12094#0" />
+            <element signature="e#11794#12059#0" />
+            <element signature="e#11815#11995#0" />
+            <element signature="e#12139#12314#0" />
+            <element signature="e#12156#12254#0" />
+            <element signature="e#12353#12659#0" />
+            <element signature="e#12702#13097#0" />
+            <element signature="e#13139#14611#0" />
+            <element signature="e#13220#13843#0" />
+            <element signature="e#13290#13335#0" />
+            <element signature="e#13870#13903#0" />
+            <element signature="e#14019#14298#0" />
+            <element signature="e#14151#14298#0" />
+            <element signature="e#14463#14611#0" />
+            <element signature="e#14644#14771#0" />
+            <element signature="e#14820#15676#0" />
+            <element signature="e#15019#15676#0" />
+            <element signature="e#15721#15943#0" />
+            <element signature="e#15721#15817#1" />
+            <element signature="e#15990#30292#0" />
+            <element signature="e#15990#16203#1" />
+            <element signature="e#16488#16550#0" />
+            <element signature="e#16730#16804#0" />
+            <element signature="e#16901#16965#0" />
+            <element signature="e#17295#20475#0" />
+            <element signature="e#18094#18525#0" />
+            <element signature="e#18535#18608#0" />
+            <element signature="e#18979#19102#0" />
+            <element signature="e#19129#19197#0" />
+            <element signature="e#19207#19278#0" />
+            <element signature="e#19465#19833#0" />
+            <element signature="e#19860#20228#0" />
+            <element signature="e#20238#20299#0" />
+            <element signature="e#20523#20870#0" />
+            <element signature="e#20566#20839#0" />
+            <element signature="e#20587#20775#0" />
+            <element signature="e#20909#22942#0" />
+            <element signature="e#21044#21261#0" />
+            <element signature="e#21044#21103#0" />
+            <element signature="e#21390#21957#0" />
+            <element signature="e#21507#21684#0" />
+            <element signature="e#21507#21560#0" />
+            <element signature="e#21698#21759#0" />
+            <element signature="e#21985#22826#0" />
+            <element signature="e#22085#22314#0" />
+            <element signature="e#22085#22112#0" />
+            <element signature="e#22369#22575#0" />
+            <element signature="e#22369#22428#0" />
+            <element signature="e#22610#22826#0" />
+            <element signature="e#22610#22667#0" />
+            <element signature="e#22985#25003#0" />
+            <element signature="e#23128#23344#0" />
+            <element signature="e#23128#23187#0" />
+            <element signature="e#23467#24034#0" />
+            <element signature="e#23584#23761#0" />
+            <element signature="e#23584#23637#0" />
+            <element signature="e#23775#23836#0" />
+            <element signature="e#24062#24888#0" />
+            <element signature="e#24158#24387#0" />
+            <element signature="e#24158#24185#0" />
+            <element signature="e#24442#24654#0" />
+            <element signature="e#24442#24499#0" />
+            <element signature="e#24689#24888#0" />
+            <element signature="e#24689#24748#0" />
+            <element signature="e#25066#26902#0" />
+            <element signature="e#25066#25158#1" />
+            <element signature="e#25186#25326#0" />
+            <element signature="e#25369#25921#0" />
+            <element signature="e#25369#25432#0" />
+            <element signature="e#25727#25830#0" />
+            <element signature="e#25948#26565#0" />
+            <element signature="e#25948#26006#0" />
+            <element signature="e#26146#26255#0" />
+            <element signature="e#26329#26551#0" />
+            <element signature="e#26950#27815#0" />
+            <element signature="e#26950#27032#1" />
+            <element signature="e#27246#27645#0" />
+            <element signature="e#27862#28399#0" />
+            <element signature="e#27862#27945#1" />
+            <element signature="e#28472#28685#0" />
+            <element signature="e#28739#28906#0" />
+            <element signature="e#28767#28904#0" />
+            <element signature="e#28948#29065#0" />
+            <element signature="e#28955#29065#0" />
+            <element signature="e#29098#29225#0" />
+            <element signature="e#29274#30292#0" />
+            <element signature="e#29475#29809#0" />
+            <element signature="e#29873#30270#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booktest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    
+    <div id="app">
+        <!-- 1,使用组件 -->
+        <global_component></global_component>
+        <global_component></global_component>
+    </div>
+
+    <script>
+        // 1,定义全局组件
+        Vue.component(
+            'global_component',
+            {
+                template:"<h1>迪丽热巴</h1>"
+            }
+        )
+
+        // 2,创建vue对象
+        var vm = new Vue({
+            el:"#app"
+        })
+    </script>
+</body>
+</html>

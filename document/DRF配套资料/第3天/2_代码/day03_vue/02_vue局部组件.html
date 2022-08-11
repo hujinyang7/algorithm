@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 1,使用局部组件 -->
+        <part1></part1>
+        <part2></part2>
+    </div>
+
+    <script>
+        //1,定义局部组件
+        var part_component = {
+            template:"<h1>古力娜扎</h1>"
+        }
+
+        //2,创建vue对象, 注册局部组件
+        var vm = new Vue({
+            el:"#app",
+            components:{
+                part1:part_component,
+                part2:{
+                    template:"<h1>马尔扎哈</h1>"
+                }
+            }
+        })
+
+    </script>
+</body>
+</html>

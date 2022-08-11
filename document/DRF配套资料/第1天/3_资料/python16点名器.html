@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>随机点名</title>
+        <style type="text/css">
+            * { margin: 0; padding:0;}
+            table { margin: 20px auto;}
+            table td { border: 1px solid #ccc; background-color: yellowgreen; border-collapse: collapse;padding: 5px;font-size: 25px;
+            margin:10px; width:80px; height: 60px; text-align: center; line-height: 30px;}
+            h3 { text-align: center; font-size: 30px; font-weight: normal; height: 60px; line-height: 60px;}
+            input { width: 80px; height: 40px; font:18px/40px "微软雅黑"; margin: 0 50px; background-color: #ddd;
+            cursor: pointer; outline: none;}
+            input:hover { background-color: #eee;}
+            .btn {text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h3 style="color: red;">python 12期 点名座位表</h3>
+        <div id="con"></div>
+        <div class="btn">
+            <input type="button" id="btn" value="high起来" />
+            <input type="button" id="btn2" value="恭喜你" />
+        </div>
+    </body>
+    <script type="text/javascript">
+        function $(id){
+            return document.getElementById(id);
+        }
+        var oBtn=$("btn"),oBtn2=$("btn2"),con = $('con');
+        var dian=null;//初始化一个变量 等于空
+                 
+        var arr = [
+            ["林剑韦", "王亚军",  "欧阳盛涛",  "  王冠富", "陈乾坤",    "周锦生",  "吴碧伟",  "魏名超"],
+             ["杨德城","张嘉浚",  "余奕斌    ",  "吴会粤    ",  "田大江",  "邓鹏飞",  "黄振华",  "欧阳兆辉"],
+             ["许成",     "占家伟",  "阳冬平    ",  "郑国坤    ",  "林渝淇",  "周方超",  "邹海珍",  "陈广润"],
+             ["李超", "高凡启","张传胜", "谢池升","刘勇","李廷坚","姚振宇"],
+        ];
+ 
+        var str = "<table>";
+        for(var i = 0; i < arr.length; i++) {
+            str += "<tr>";
+            for(var k = 0; k < arr[i].length; k++) str += "<td>"+arr[i][k]+"</td>";
+            str += "</tr>";
+        }
+        str +="</table>"
+        con.innerHTML = str;
+        
+        var cell = con.getElementsByTagName('td');
+        for(var i = 0; i < cell.length; i++) {
+            if(cell[i].innerHTML=="") cell[i].style.cssText= "background:none;border:none"; 
+        }
+        var newArr = [];
+        for(var i = 0; i < arr.length; i++) newArr = newArr.concat(arr[i]);
+         
+        //点名函数
+        function rand_stu(){
+            var Index=Math.floor(Math.random()*newArr.length);//0 1 23 4567
+            if(newArr[Index]!="" && newArr[Index]!="讲师" && Index!=96) {
+                for(var i = 0; i < cell.length; i++) {
+                    cell[i].style.backgroundColor = (cell[i].innerHTML=="")?"#fff":"yellowgreen";
+                     
+                }   
+                cell[Index].style.backgroundColor = "rgba(255,0,0,0.5)";
+                 
+            }
+        }
+        //单击开始
+        oBtn.onclick=function(){
+            if(dian) return;
+            dian=setInterval(rand_stu,100);
+        }
+        //单击停止
+        oBtn2.onclick=function(){
+            clearInterval(dian);//清除定时器
+            dian=null;//变量改回空
+        }
+         
+    </script>
+</html>

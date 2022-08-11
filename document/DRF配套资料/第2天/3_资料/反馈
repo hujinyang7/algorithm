@@ -1,0 +1,38 @@
+1, class BookListGenericAPIView(GenericAPIView): 
+	queryset = BookInfo.objects.all() 
+	serializer_class = BookInfoModelSerializer 
+
+	def get(self, request): 
+		books = self.queryset.all()
+		books = self.get_queryset()
+		
+		serializer = self.get_serializer(instance=books, many=True) 
+
+		return Response(serializer.data) 
+
+	这样会报错，要写成self.queryset.all()，不懂为什么，通过debug看到books已经是queryset了。
+	答: 这是一个动态查询的过程, 需要执行all()
+
+
+2,NICE
+
+3,遇到一个问题,在序列化模型类内添加mobile字段的时候, 也不使用BookInfo的对象book添加mobile具体值,不报错,fields也指定了mobile，但结果不输出,也不报错。
+class BookInfoModelSerializer(serializer.ModelSerializer):
+	
+	# mobile = serializer.CharField(...,write_only=True)
+	mobile = serializer.CharField(...,read_only=True)
+
+	class Meta:
+		model = BookInfo
+		fields = [id,btitle,mobile]
+
+book = BookInfo.query.get(1)
+
+serializer = BookInfoModelSerializer(instance=book)
+
+serializer.data
+
+
+write_only: 只写; 只进行反序列化, 不进行序列化
+
+read_only: 只读;  不进行反序列化, 只进行序列化

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <global_component></global_component>
+    </div>
+
+    <script>
+        // 1,全局组件
+        Vue.component(
+            'global_component',
+            {
+                template:"<h1>迪丽热巴, {{name}} ,{{age}} </h1>",
+                data:function(){
+                    return {
+                        name:"刷我滴卡",
+                        age:13
+                    }
+                }
+                
+            }
+        )
+
+        // 2,vm对象
+        var vm = new Vue({
+            el:"#app",
+        })
+    </script>
+</body>
+</html>
