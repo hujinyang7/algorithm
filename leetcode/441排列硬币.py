@@ -20,7 +20,7 @@ class Solution:
         k = row = 1
         while True:
             left_count = n - k
-            if left_count >= k+1:
+            if left_count >= k + 1:
                 n -= k
                 row += 1
                 k += 1
