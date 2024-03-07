@@ -16,10 +16,7 @@ class Stack(object):
 
     def peek(self):
         """返回栈顶元素"""
-        if self.__list:
-            return self.__list[-1]
-        else:
-            return None
+        return self.__list[-1] if self.__list else None
 
     def is_empty(self):
         """判断栈是否为空"""
@@ -37,8 +34,10 @@ if __name__ == "__main__":
     s.push(2)
     s.push(3)
     s.push(4)
+    print(s._Stack__list)
     print(s.pop())
     print(s.pop())
+    print(s.peek())
     print(s.pop())
     print(s.pop())
 

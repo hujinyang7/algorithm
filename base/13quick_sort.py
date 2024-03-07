@@ -13,8 +13,8 @@ def quick_sort(alist, first, last):
         while low < high and alist[high] >= mid_value:
             high -= 1
         alist[low] = alist[high]
-
-        while low <high and alist[low] < mid_value:
+        # low 右移
+        while low < high and alist[low] < mid_value:
             low += 1
         alist[high] = alist[low]
     # 从循环退出时，low==high
