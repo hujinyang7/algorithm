@@ -7,6 +7,7 @@
 
 
 class Solution:
+    # 两次遍历，O(n*n)
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         return_list = []
         count = 0
@@ -20,3 +21,20 @@ class Solution:
                 else:
                     next_index += 1
             count += 1
+
+def solution(nums, target):
+    # 一次遍历，O(n)
+    return_list = []
+    index = 0
+    for each in nums:
+        left = target - each
+        if left in nums[index+1:]:
+            return_list.append(index)
+            return_list.append(nums.index(left, index+1))
+            return return_list
+        index += 1
+
+if __name__ == '__main__':
+    nums = [3,3]
+    target = 6
+    print(solution(nums, target))

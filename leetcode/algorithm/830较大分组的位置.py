@@ -42,7 +42,7 @@ class Solution:
                     return_list.append([pre, cur-1])
             else:
                 if count >= 3:
-                    return_list.append([pre, cur-1])
+                    return_list.append([pr   e, cur-1])
                 count = 1
                 pre = cur
                 cur += 1

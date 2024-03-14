@@ -23,16 +23,18 @@ class Solution:
     def isUgly(self, n: int) -> bool:
         if n == 1:
             return True
-        divisor_list = [2, 3, 5]
-        enabled = True
-        while enabled and n > 1:
+        elif n == 0:
+            return False
+        else:
+            div_list = [2, 3, 5]
             flag = True
-            for item in divisor_list:
-                if n % item == 0:
-                    n /= item
-                    flag = False
-                else:
-                    if flag and item == 5:
-                        enabled = False
+            while flag:
+                switch = True
+                for each in div_list:
+                    if n % each == 0:
+                        n /= each
+                        switch = False
                         break
-        return True if n == 1 else False
+                if switch:
+                    flag = False
+            return True if n == 1 else False

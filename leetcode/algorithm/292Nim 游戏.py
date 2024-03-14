@@ -25,4 +25,4 @@ class Solution:
      一定是必输的. 所以整个代码变成了求一个数是不是4的倍数的问题
     '''
     def canWinNim(self, n: int) -> bool:
-        return n % 4 != 0
+        return False if n % 4 == 0 else True

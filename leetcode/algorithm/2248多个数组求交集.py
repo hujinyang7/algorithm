@@ -12,7 +12,7 @@ nums[0] = [3,1,2,4,5]，nums[1] = [1,2,3,4]，nums[2] = [3,4,5,6]，在 nums 中
 输入：nums = [[1,2,3],[4,5,6]]
 输出：[]
 解释：
-不存在同时出现在 nums[0] 和 nums[1] 的整数，所以返回一个空列表 [] 
+不存在同时出现在 nums[0] 和 nums[1] 的整数，所以返回一个空列表 []
 '''
 
 
@@ -31,6 +31,6 @@ class Solution:
             else:
                 intersection_set = each & intersection_set
             flag = False
-        return_list =  list(intersection_set)
+        return_list = list(intersection_set)
         return_list.sort()
         return return_list

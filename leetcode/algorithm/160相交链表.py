@@ -44,7 +44,12 @@ skipB - 在 listB 中（从头节点开始）跳到交叉节点的节点数
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
-        # a + (b−c) = b + (a−c)
+        '''
+        设「第一个公共节点」为 node ，「链表 headA」的节点数量为a，「链表 headB」的节点数量为 b，「两链表的公共尾部」的节点数量为c ，则有：
+        头节点 headA 到 node 前，共有 a−c个节点；
+        头节点 headB 到 node 前，共有 b−c个节点；
+        a + (b−c) = b + (a−c)
+        '''
         a, b = headA, headB
         while a != b:
             a = a.next if a else headB

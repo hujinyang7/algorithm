@@ -28,7 +28,7 @@ class Solution:
             return n
         a, b = 0, 1
         fbs_list = [0, 1]
-        for i in range(n):
+        for i in range(n - 1):
             a, b = b, a+b
-            fbs_list.append(a)
+            fbs_list.append(b)
         return fbs_list[-1]

@@ -51,4 +51,4 @@ class Solution:
                 score_list.pop()
             else:
                 score_list.append(int(each))
-        return sum(map(lambda item: int(item), score_list))
+        return sum(score_list)

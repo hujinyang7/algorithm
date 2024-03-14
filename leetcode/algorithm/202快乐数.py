@@ -28,7 +28,7 @@ class Solution:
     def isHappy(self, n: int) -> bool:
         sum = 0
         for each in str(n):
-            sum += int(each)**2
+            sum += int(each) ** 2
         if sum == 1:
             return True
         else:
