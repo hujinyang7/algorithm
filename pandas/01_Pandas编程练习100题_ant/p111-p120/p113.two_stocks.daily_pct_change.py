@@ -1,3 +1,4 @@
+# 两只股票数据计算当日股价涨跌幅
 import pandas as pd
 
 pd.set_option('display.max_columns', 30)

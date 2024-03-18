@@ -1,3 +1,4 @@
+# 二手汽车数据集移除所有包含缺失值的行
 import pandas as pd
 
 df = pd.read_csv("used_cars.csv", index_col=0)

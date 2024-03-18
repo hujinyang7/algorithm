@@ -1,3 +1,4 @@
+# 两只股票数据同时涨的信号百分比
 import pandas as pd
 
 pd.set_option('display.max_columns', 30)

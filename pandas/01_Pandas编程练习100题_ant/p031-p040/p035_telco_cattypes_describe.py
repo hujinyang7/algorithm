@@ -1,3 +1,5 @@
+# 对cat类型字段数据统计
+
 import pandas as pd
 
 df = pd.read_csv("Telco-Customer-Churn.csv")

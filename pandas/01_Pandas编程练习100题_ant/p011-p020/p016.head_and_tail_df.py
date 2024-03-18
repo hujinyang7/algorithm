@@ -1,3 +1,4 @@
+# 打印DataFrame的前后5行
 import pandas as pd
 import numpy as np
 

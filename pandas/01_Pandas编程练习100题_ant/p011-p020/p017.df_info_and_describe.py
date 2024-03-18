@@ -1,3 +1,4 @@
+# 查看df的信息和基本数据统计
 import pandas as pd
 import numpy as np
 
@@ -9,5 +10,7 @@ df = pd.DataFrame(
 	index=pd.date_range(start='2021-01-01', periods=1000))
 
 # 从这里开始完成题目
-print(df)
-print(df["binomial"].value_counts())
+print(df.info())  # 查看多少行、多少列、类型等基本信息
+print()
+print(df.describe())   # 查看每列的平均值、最小值、最大值、中位数等统计信息
+

@@ -1,3 +1,4 @@
+# 删除不需要的数据列
 import pandas as pd
 
 df = pd.read_csv("./00700.HK.csv")

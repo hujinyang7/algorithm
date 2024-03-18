@@ -1,3 +1,4 @@
+# 保险费用数据集筛选打印object类型的列
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

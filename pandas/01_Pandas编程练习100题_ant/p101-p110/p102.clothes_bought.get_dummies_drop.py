@@ -1,3 +1,4 @@
+# 衣服购买数据集dummies函数获取数值（增加drop first）
 import pandas as pd
 
 data = {

@@ -1,3 +1,4 @@
+# 保险费用数据集分离类别和数值数据
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

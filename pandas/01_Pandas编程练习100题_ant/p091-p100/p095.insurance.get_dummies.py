@@ -1,3 +1,4 @@
+# 保险费用数据集将类别字段转换成01编码
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

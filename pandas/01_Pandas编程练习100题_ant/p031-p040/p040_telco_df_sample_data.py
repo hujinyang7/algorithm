@@ -1,4 +1,4 @@
-
+# 从数据集中采样数据行
 import pandas as pd
 
 df = pd.read_csv("Telco-Customer-Churn.csv")

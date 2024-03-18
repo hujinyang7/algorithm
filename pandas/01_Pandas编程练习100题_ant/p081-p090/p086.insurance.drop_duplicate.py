@@ -1,3 +1,4 @@
+# 保险费用数据集删除重复的数据行
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

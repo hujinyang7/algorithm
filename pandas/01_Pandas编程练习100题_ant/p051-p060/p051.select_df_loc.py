@@ -1,4 +1,4 @@
-
+# 按列名筛选DF使用.loc方法进行
 import numpy as np
 import pandas as pd
 

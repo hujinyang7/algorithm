@@ -1,3 +1,4 @@
+# 衣服购买数据集使用字典构造DataFrame
 import pandas as pd
 
 data = {

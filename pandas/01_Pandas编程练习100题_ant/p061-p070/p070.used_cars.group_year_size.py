@@ -1,3 +1,4 @@
+# 二手汽车数据集统计每年份的二手车数量
 import pandas as pd
 
 df = pd.read_csv("used_cars.csv", index_col=0)

@@ -1,3 +1,4 @@
+# 保险费用数据集查看类别数据列的分布
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

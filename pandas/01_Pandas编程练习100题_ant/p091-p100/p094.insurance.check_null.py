@@ -1,3 +1,4 @@
+# 保险费用数据集统计数据列的缺失值个数
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

@@ -1,3 +1,4 @@
+# 伦敦共享单车数据集计算每个月的湿度百分比的平均值
 import pandas as pd
 
 df = pd.read_csv("london_bike.csv")

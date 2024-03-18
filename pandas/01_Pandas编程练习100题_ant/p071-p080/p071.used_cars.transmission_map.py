@@ -1,3 +1,4 @@
+# 二手汽车数据集自动挡手动挡的数字映射
 import pandas as pd
 
 df = pd.read_csv("used_cars.csv", index_col=0)

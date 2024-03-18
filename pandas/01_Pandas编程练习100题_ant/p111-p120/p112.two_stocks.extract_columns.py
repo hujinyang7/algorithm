@@ -1,3 +1,4 @@
+# 两只股票数据筛选大DataFrame的几列
 import pandas as pd
 
 pd.set_option('display.max_columns', 30)

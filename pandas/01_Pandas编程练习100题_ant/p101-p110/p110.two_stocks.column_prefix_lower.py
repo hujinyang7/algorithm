@@ -1,3 +1,4 @@
+# 两只股票数据批量给列名添加前缀
 import pandas as pd
 
 bidu = pd.read_csv('stock.BIDU.csv', index_col=0)

@@ -1,3 +1,4 @@
+# 保险费用数据集转换数据列到cat类型
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

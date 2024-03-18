@@ -1,3 +1,4 @@
+# 保险费用数据集统计数值列的均值和方差
 import pandas as pd
 
 df = pd.read_csv("insurance.csv")

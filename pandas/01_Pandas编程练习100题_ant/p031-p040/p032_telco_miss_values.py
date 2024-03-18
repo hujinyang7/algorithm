@@ -1,4 +1,4 @@
-
+# 统计每一列数据的缺失值
 import pandas as pd
 
 df = pd.read_csv("Telco-Customer-Churn.csv")

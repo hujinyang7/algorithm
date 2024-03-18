@@ -1,3 +1,4 @@
+# 计算每年的平均收盘价
 import pandas as pd
 
 df = pd.read_csv("./00700.HK.csv")

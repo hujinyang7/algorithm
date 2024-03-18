@@ -1,4 +1,4 @@
-
+# 生成日期和随机分布DataFrame
 import pandas as pd
 import numpy as np
 

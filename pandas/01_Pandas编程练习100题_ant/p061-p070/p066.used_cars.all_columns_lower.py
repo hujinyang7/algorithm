@@ -1,3 +1,4 @@
+# 二手汽车数据集将所有的列名改成小写
 import pandas as pd
 
 df = pd.read_csv("used_cars.csv", index_col=0)

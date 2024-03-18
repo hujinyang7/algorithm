@@ -1,3 +1,4 @@
+# 删除DataFrame指定的数据列
 import numpy as np
 import pandas as pd
 

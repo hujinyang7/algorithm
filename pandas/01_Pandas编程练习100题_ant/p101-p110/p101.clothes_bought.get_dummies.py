@@ -1,3 +1,4 @@
+# 衣服购买数据集dummies函数获取数值
 import pandas as pd
 
 data = {
@@ -18,6 +19,6 @@ for column in ["price", "weight"]:
 	df[column] = df[column].astype("float")
 
 # 从这里开始完成题目
-
+print(df)
 print(pd.get_dummies(df))
 

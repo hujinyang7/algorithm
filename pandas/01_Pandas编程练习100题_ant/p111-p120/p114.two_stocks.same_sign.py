@@ -1,3 +1,4 @@
+# 两只股票数据是否同涨同跌的信号计算
 import pandas as pd
 
 pd.set_option('display.max_columns', 30)

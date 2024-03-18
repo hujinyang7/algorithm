@@ -1,4 +1,4 @@
-
+# 创建一个DataFrame
 
 import pandas as pd
 
@@ -10,7 +10,7 @@ df = pd.DataFrame(
 	}
 )
 
-# print(df)
+print(df)
 dd = pd.DataFrame(
 	{
 		"姓名": ["小1", "小2", "小3", "小4"],
@@ -18,5 +18,7 @@ dd = pd.DataFrame(
 		"年龄": [18, 19, 20, 18]
 	}
 )
+print(dd)
+
 re = df.append(dd)
 print(re)

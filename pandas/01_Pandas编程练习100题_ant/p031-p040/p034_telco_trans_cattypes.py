@@ -1,3 +1,4 @@
+# 将类别字段转换成cat类型
 import pandas as pd
 
 df = pd.read_csv("Telco-Customer-Churn.csv")
