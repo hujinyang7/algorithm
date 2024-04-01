@@ -97,14 +97,15 @@ def sales_person(sales_person: pd.DataFrame, company: pd.DataFrame, orders: pd.D
 
 
 if __name__ == '__main__':
-    def fabs(n):
+    def fabs(n) :
         if n < 2:
             return n
-        fabs_list = [0, 1]
         a, b = 0, 1
-        for i in range(n - 2): 
+        fbs_list = [0, 1]
+        for i in range(n - 2):
             a, b = b, a+b
-            fabs_list.append(b)
-        return fabs_list[-1]
-    print(fabs(10))
+            fbs_list.append(b)
+        print(fbs_list)
+        return fbs_list[-1]
+    print(fabs(3))
 

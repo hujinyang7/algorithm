@@ -42,3 +42,21 @@ def actors_and_directors(actor_director: pd.DataFrame) -> pd.DataFrame:
     df = actor_director.groupby(['actor_id', 'director_id'], as_index=False).apply(lambda df: df.shape[0] >= 3)
     df.columns=['actor_id', 'director_id', 'flag']
     return df.loc[df['flag'], ['actor_id', 'director_id']]
+
+
+if __name__ == '__main__':
+    import pandas as pd
+
+    def f(actor_director):
+        df = actor_director.groupby(['actor_id', 'director_id'], as_index=False).apply(lambda df: df.shape[0] >= 3)
+        print(df)
+        df.columns = ['actor_id', 'director_id', 'flag']
+        return df.loc[df['flag'], ['actor_id', 'director_id']]
+
+    df = pd.DataFrame({
+        'actor_id': [1,1,1,1,1,2,2],
+        'director_id': [1,1,1,2,2,1,1],
+        'timestamp': [0,1,2,3,4,5,6]
+    })
+
+    print(f(df))
