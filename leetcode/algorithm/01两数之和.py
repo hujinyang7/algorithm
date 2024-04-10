@@ -44,7 +44,7 @@ def solution(nums, target):
     return_list = []
     while index <= mid:
         left = target - sorted_nums[index]
-        if left in nums[index+1:]:
+        if left in sorted_nums[index+1:]:
             pre_index = nums.index(sorted_nums[index])
             next_index = nums.index(left, pre_index+1)
             return_list.append(pre_index)
