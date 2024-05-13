@@ -41,3 +41,12 @@ def find_managers(employee: pd.DataFrame) -> pd.DataFrame:
     group_df = employee.groupby('managerId', as_index=False).agg(count=('managerId', lambda ser: ser.shape[0]))
     group_df = group_df.loc[group_df['count'] >= 5, ['managerId']]
     return pd.merge(employee, group_df, left_on='id', right_on='managerId', how='inner')[['name']]
+
+
+
+if __name__ == '__main__':
+    df = pd.DataFrame({'id': [101, 102, 103, 104, 105, 106],
+                        'name': ['John', 'Dan', 'James', 'Amy', 'Anne', 'Ron'],
+                        'department': ['A', 'A', 'A', 'A', 'A', 'B'],
+                        'managerId': [None, 101, 101, 101, 101, 101]})
+    print(find_managers(df))

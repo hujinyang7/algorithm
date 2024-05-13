@@ -44,6 +44,14 @@ Courses table:
 import pandas as pd
 
 def find_classes(courses: pd.DataFrame) -> pd.DataFrame:
-    courses['count'] = 1
-    group_df = courses.groupby('class', as_index=False).sum()
+    # courses['count'] = 1
+    # group_df = courses.groupby('class', as_index=False).sum()
+    # return group_df.loc[group_df['count'] >=5, ['class']]
+    group_df = courses.groupby('class', as_index=False).agg(count=('class', lambda ser: ser.shape[0]))
     return group_df.loc[group_df['count'] >=5, ['class']]
+
+
+if __name__ == '__main__':
+    df = pd.DataFrame({'student': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],
+                        'class': ['Math', 'English', 'Math', 'Biology', 'Math', 'Computer', 'Math', 'Math', 'Math']})
+    print(find_classes(df))

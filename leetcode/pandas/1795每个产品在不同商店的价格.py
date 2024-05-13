@@ -42,5 +42,17 @@ import pandas as pd
 
 def rearrange_products_table(products: pd.DataFrame) -> pd.DataFrame:
     df = products.set_index('product_id').stack().reset_index()
-    df.rename(columns={'level_1':'store', 0:'price'}, inplace=True)
     return df
+    # df.rename(columns={'level_1':'store', 0:'price'}, inplace=True)
+    # return df
+
+
+if __name__ == '__main__':
+    df = pd.DataFrame({
+        'product_id': [0, 1],
+        'store1': [95, 70],
+        'store2': [100, None],
+        'store3': [105, 80, ],
+    })
+
+    print(rearrange_products_table(df))

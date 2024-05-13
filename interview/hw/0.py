@@ -30,7 +30,17 @@ def solution(s):
         return_dict[index] = {'value': each_str, 'len': len(each_str)}
     return return_dict
 
+def solution2(s):
+    import re
+    return_dict = {}
+    str_list = re.split('[\s._()!-?]+', s)
+    str_list.pop()
+    str_list.sort(key=lambda each: len(each))
+    for index, each_str in enumerate(str_list):
+        return_dict[index] = {'value': each_str, 'len': len(each_str)}
+    return return_dict
 
 
 if __name__ == '__main__':
     print(solution('Hello_1234,p.Hello/asdg,5ddsaAD!dsa0,world!'))
+    print(solution2('Hello_1234,p.Hello/asdg,5ddsaAD!dsa0,world!'))

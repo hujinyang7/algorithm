@@ -40,3 +40,10 @@ import pandas as pd
 def largest_orders(orders: pd.DataFrame) -> pd.DataFrame:
     group_df = orders.groupby('customer_number', as_index=False).agg(count=('customer_number', lambda ser: ser.shape[0]))
     return group_df.loc[group_df['count'] == group_df['count'].max(), ['customer_number']]
+
+
+
+if __name__ == '__main__':
+    df = pd.DataFrame({'order_number': [1, 2, 3, 4],
+                        'customer_number': [1, 2, 3, 3]})
+    print(largest_orders(df))
